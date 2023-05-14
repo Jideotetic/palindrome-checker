@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/JD.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Palindrome Checker</title>
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <h1>Palindrome Checker</h1>
+        <p>
+          Palindromes are words that are spelt the same way backward and
+          forward...Want to check if your favorite word is a palindrome? Give it
+          a trial.
+        </p>
+        <form>
+          <input
+            type="search"
+            name="text"
+            id="text"
+            placeholder="search..."
+            pattern="[a-zA-Z0-9\s]+"
+            title="Input a valid word or sentence without punctuations"
+            required />
+          <button type="submit">Check</button>
+        </form>
+        <p class="result"></p>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>

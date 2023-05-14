@@ -1,2 +1,3 @@
 # palindrome-checker
-A web app to check if a word is a palindrome
+
+A single webpage app to check if a word is a palindrome
